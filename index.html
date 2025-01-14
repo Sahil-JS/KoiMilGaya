@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call the Aliens</title>
+    <link rel="icon" href="images/jadoo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 id="title">Koi Mil Gaya?</h1>
+    
+    <div class="set">
+        <!-- Button keys for the tune -->
+        <button class="a drum">A</button>
+        <button class="b drum">B</button>
+        <button class="c drum">C</button>
+        <button class="d drum">D</button>
+        <button class="e drum">E</button>
+    </div>
+
+    
+
+    <footer>
+        <h3>Press keys - ABED  ABDC  ABE  DCD</h3>
+        Feel the frequency of the universe.
+    </footer>
+    <div class="music-container">
+        <p>-- Just a music below --</p>
+    <button id="playPauseButton">▶️ Play</button>
+</div>
+<audio id="backgroundMusic" src="sounds/Baroque 2 violin"></audio>
+
+<!-- Progress Bar Container -->
+<div class="progress-container">
+    <input type="range" id="progressBar" value="0" step="1">
+</div>
+
+<!-- Time Display -->
+<div class="time-info">
+    <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+</div>
+</div>
+
+    <!-- Linking the JS file -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
