@@ -42,6 +42,7 @@ If you want to change the current Alien tune to a piano version (which is also g
    };
 
 3. **Change the soundMap object to the following code to switch to piano sounds:**
+  ```javascript
   const soundMap = {
     "a": "sounds/Piano/A.mp3",
     "b": "sounds/Piano/B.mp3",
